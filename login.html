@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login HTML CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <form action="#">
+        <h3>Login</h3>
+
+        <label for="email"> Email
+            <input type="email" placeholder="Email or Phone" id="email" required>
+        </label>
+
+        <label for="password"> Password
+            <input type="password" placeholder="Password" id="password" required>
+        </label>
+
+        <button id="submit" type="submit">log in </button>
+
+        <div class="social">
+            <div class="go" id="google">
+                <button><i class="fab fa-google"></i> Google</button>
+            </div>
+            <div class="fb" id="facebook">
+                <button><i class="fa-brands fa-facebook-f"></i> Facebook</button>
+            </div>
+        </div>
+    
+        <div class="form">
+            <p>Don't have an account? <a  style="color: rgb(75, 75, 201);" href="./register.html">Creat Account</a></p>
+        </div>
+    </form>
+
+    <script type="module" src="login.js" defer></script>
+</body>
+</html>
